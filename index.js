@@ -128,3 +128,17 @@ function testCognitiveRule(input) {
       }
     }
 }
+
+testCognitiveRule();
+
+if (1) {
+  testCognitiveRule();
+}
+
+if (2) {
+  testCognitiveRule();
+}
+
+if (1 === 1) {
+  console.log('More code to test');
+}
